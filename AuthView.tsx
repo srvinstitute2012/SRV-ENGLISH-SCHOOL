@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { SRVLogo } from '../components/SRVLogo';
-import { User, Role, StandardClass, STANDARD_CLASSES, SUBJECT_OPTIONS } from '../types';
-import { getStoredUsers, saveUsers, getSecretSetupKey, saveCurrentUser } from '../lib/storage';
+import { SRVLogo } from './SRVLogo';
+import { User, Role, StandardClass, STANDARD_CLASSES, SUBJECT_OPTIONS } from './types';
+import { getStoredUsers, saveUsers, getSecretSetupKey, saveCurrentUser } from './storage';
 import { Shield, BookOpen, GraduationCap, Key, Lock, UserPlus, LogIn, AlertCircle, CheckCircle, Info } from 'lucide-react';
 
 interface AuthViewProps {
