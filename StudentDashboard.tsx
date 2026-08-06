@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Quiz, QuizAttempt, StandardClass } from '../types';
+import { User, Quiz, QuizAttempt, StandardClass } from './types';
 import {
   getStoredQuizzes,
   getStoredAttempts,
