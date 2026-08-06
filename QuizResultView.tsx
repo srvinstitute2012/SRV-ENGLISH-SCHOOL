@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Quiz, QuizAttempt, User } from '../types';
-import { evaluateQuestionAnswer } from '../lib/storage';
+import { Quiz, QuizAttempt, User } from './types';
+import { evaluateQuestionAnswer } from './storage';
 import { Award, CheckCircle2, XCircle, Printer, ArrowLeft, HelpCircle, Sparkles } from 'lucide-react';
 import { PrintableGradebook } from './PrintableGradebook';
 
