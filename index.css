@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700;800;900&family=Outfit:wght@800;900&family=Quicksand:wght@700&display=swap');
+
+@layer utilities {
+  .font-curved-title {
+    font-family: 'Fredoka', 'Outfit', 'Quicksand', system-ui, -apple-system, sans-serif;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+/* Print Styles for SRV English School Official Gradebooks */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-gradebook-sheet,
+  #printable-gradebook-sheet * {
+    visibility: visible;
+  }
+
+  #printable-gradebook-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white !important;
+    color: black !important;
+  }
+}

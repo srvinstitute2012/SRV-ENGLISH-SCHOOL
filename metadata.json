@@ -1,0 +1,6 @@
+{
+  "name": "SRV English School",
+  "description": "Official academic portal and AI evaluation system for SRV English School with Principal, Teacher, and Student workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
