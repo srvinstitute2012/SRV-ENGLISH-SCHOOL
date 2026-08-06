@@ -5,10 +5,10 @@ import {
   getStoredAttempts,
   saveAttempts,
   formatDateToDDMMYYYY,
-} from '../lib/storage';
-import { QuizPlayer } from '../components/QuizPlayer';
-import { QuizResultView } from '../components/QuizResultView';
-import { PrintableGradebook } from '../components/PrintableGradebook';
+} from './storage';
+import { QuizPlayer } from './QuizPlayer';
+import { QuizResultView } from './QuizResultView';
+import { PrintableGradebook } from './PrintableGradebook';
 import {
   GraduationCap,
   BookOpen,
