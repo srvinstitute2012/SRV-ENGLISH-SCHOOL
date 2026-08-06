@@ -1,8 +1,8 @@
 import React from 'react';
-import { User, QuizAttempt, Quiz } from '../types';
+import { User, QuizAttempt, Quiz } from './types';
 import { SRVLogo } from './SRVLogo';
 import { Printer, X, Award, CheckCircle, ShieldCheck } from 'lucide-react';
-import { formatDateToDDMMYYYY } from '../lib/storage';
+import { formatDateToDDMMYYYY } from './storage';
 
 interface PrintableGradebookProps {
   student: User;
