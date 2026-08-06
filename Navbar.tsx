@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SRVLogo } from './SRVLogo';
-import { User } from '../types';
+import { User } from './types';
 import { LogOut, UserCheck, Shield, GraduationCap, BookOpen, RefreshCw, Sparkles } from 'lucide-react';
 
 interface NavbarProps {
