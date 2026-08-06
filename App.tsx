@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { User } from './types';
-import { getCurrentUser, saveCurrentUser, resetSchoolData } from './lib/storage';
-import { Navbar } from './components/Navbar';
-import { AuthView } from './views/AuthView';
-import { PrincipalDashboard } from './views/PrincipalDashboard';
-import { TeacherDashboard } from './views/TeacherDashboard';
-import { StudentDashboard } from './views/StudentDashboard';
+import { getCurrentUser, saveCurrentUser, resetSchoolData } from './storage';
+import { Navbar } from './Navbar';
+import { AuthView } from './AuthView';
+import { PrincipalDashboard } from './PrincipalDashboard';
+import { TeacherDashboard } from './TeacherDashboard';
+import { StudentDashboard } from './StudentDashboard';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
