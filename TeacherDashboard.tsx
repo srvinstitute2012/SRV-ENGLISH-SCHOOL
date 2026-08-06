@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Quiz, QuizAttempt, StandardClass, QuizQuestion, QuestionType, STANDARD_CLASSES, SUBJECT_OPTIONS } from '../types';
+import { User, Quiz, QuizAttempt, StandardClass, QuizQuestion, QuestionType, STANDARD_CLASSES, SUBJECT_OPTIONS } from './types';
 import {
   getStoredUsers,
   saveUsers,
@@ -7,7 +7,7 @@ import {
   saveQuizzes,
   getStoredAttempts,
   formatDateToDDMMYYYY,
-} from '../lib/storage';
+} from './storage';
 import {
   BookOpen,
   Users,
@@ -35,7 +35,7 @@ import {
   X,
   Camera,
 } from 'lucide-react';
-import { PrintableGradebook } from '../components/PrintableGradebook';
+import { PrintableGradebook } from './PrintableGradebook';
 
 interface TeacherDashboardProps {
   currentUser: User;
