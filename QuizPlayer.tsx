@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Quiz, QuizAttempt, User } from '../types';
-import { calculateGrade, evaluateQuestionAnswer } from '../lib/storage';
+import { Quiz, QuizAttempt, User } from './types';
+import { calculateGrade, evaluateQuestionAnswer } from './storage';
 import { Clock, CheckCircle2, Flag, ChevronLeft, ChevronRight, AlertTriangle, Send, Sparkles, Edit3 } from 'lucide-react';
 
 interface QuizPlayerProps {
