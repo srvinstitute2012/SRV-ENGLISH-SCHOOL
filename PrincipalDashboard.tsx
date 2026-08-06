@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Quiz, QuizAttempt, StandardClass, STANDARD_CLASSES } from '../types';
+import { User, Quiz, QuizAttempt, StandardClass, STANDARD_CLASSES } from './types';
 import {
   getStoredUsers,
   saveUsers,
@@ -8,7 +8,7 @@ import {
   getSecretSetupKey,
   saveSecretSetupKey,
   formatDateToDDMMYYYY,
-} from '../lib/storage';
+} from './storage';
 import {
   Shield,
   UserCheck,
