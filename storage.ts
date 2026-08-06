@@ -1,4 +1,4 @@
-import { User, Quiz, QuizAttempt, QuizQuestion, StandardClass } from '../types';
+import { User, Quiz, QuizAttempt, QuizQuestion, StandardClass } from './types';
 
 const STORAGE_KEYS = {
   USERS: 'srv_school_users',
